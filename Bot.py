@@ -64,3 +64,4 @@ conv = ConversationHandler(
 app.add_handler(CommandHandler("start", start))
 app.add_handler(conv)
 app.run_polling()
+python bot.py
